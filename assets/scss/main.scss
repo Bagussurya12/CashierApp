@@ -1,0 +1,17 @@
+html,
+body {
+  padding: 0;
+  overflow: hidden !important;
+}
+// Loadin
+.spin-loading {
+  animation: spin 1s infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
